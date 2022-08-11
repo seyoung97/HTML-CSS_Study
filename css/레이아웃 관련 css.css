@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+/* reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing 박스 크기가 패딩값에 영향 받는걸 방지함 */
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  outline: 0;
+  text-decoration: none;
+}
+
+div.box1 {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  background-color: pink;
+  font-size: 30px;
+  padding: 50px;
+}
+
+div.box2 {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  /* margin 겹침 현상 세로 마진값이 겹치는 경우 큰거 하나만 적용된다. */
+  background-color: orange;
+  font-size: 30px;
+  padding: 50px;
+  /* overflow: 삐져나간 글자 처리 
+   디폴트값은 visual 삐져나간채로 보이는거
+   hidden: 삐져나간 글자는 안보임
+   auto: 박스에 스크롤바가 생겨서 스크롤 내리면 삐져나간 글자가 보임
+   */
+  overflow: auto;
+}
