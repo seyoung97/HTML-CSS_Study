@@ -1,0 +1,82 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  outline: 0;
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+
+/* ul li -> ul의 자식인 li를 일괄적으로 선택 */
+ul li {
+  width: 100px;
+  height: 30px;
+}
+.color1 {
+  background-color: #000000;
+}
+.color2 {
+  background-color: #111;
+}
+.color3 {
+  background-color: #222;
+}
+.color4 {
+  background-color: #333;
+}
+.color5 {
+  background-color: #444;
+}
+.color6 {
+  background-color: #555;
+}
+.color7 {
+  background-color: #666;
+}
+.color8 {
+  background-color: #777;
+}
+.color9 {
+  background-color: #888;
+}
+.color10 {
+  background-color: #999;
+}
+.color11 {
+  background-color: #aaa;
+}
+.color12 {
+  background-color: #bbb;
+}
+.color13 {
+  background-color: #ccc;
+}
+.color14 {
+  background-color: #ddd;
+}
+.color15 {
+  background-color: #eee;
+}
+.color16 {
+  background-color: #fff;
+}
+
+.custom1 {
+  width: 100px;
+  height: 50px;
+  background-color: #02c5e2;
+}
+.custom2 {
+  width: 100px;
+  height: 50px;
+  background-color: rgba(218, 199, 223, 0.5);
+}
