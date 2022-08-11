@@ -1,0 +1,39 @@
+@charset 'utf-8';
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  outline: 0;
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+}
+.box p {
+  font: bold 30px/1 "arial";
+  color: #000;
+}
+/* 가상선택자: html에 선택자를 만들지 않고 css에서 가상으로 선택자 생성
+접근성 마크를 따야하는 경우 html의 구조가 매우 중요함 
+불필요한 박스를 최소화해야 하기 때문에 박스를 만들지 않고 가상 선택자로 꾸밈요소 또는 float요소 해제 를 주는 것
+:before -> 박스를 기준으로 박스 앞쪽에 가상으로 선택자를 생성
+:after -> 박스를 기준으로 박스 뒤쪽에 가상으로 선택자를 생성 */
+.box:before {
+  content: "앞쪽에 들어갈 컨텐츠";
+}
+.box:after {
+  content: "뒤쪽에 들어갈 컨텐츠";
+}
