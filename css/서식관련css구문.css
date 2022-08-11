@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+p {
+  width: 600px;
+  border: 1px solid red;
+  /* font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "고딕"; */
+  font: bold normal 20px/1.2 "고딕";
+  color: violet;
+  /* 들여쓰기 */
+  text-indent: 10px;
+  /* 글자 정렬 */
+  text-align: left;
+  /* 글 꾸미기 */
+  text-decoration: underline;
+}
