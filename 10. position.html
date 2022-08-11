@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <link rel="stylesheet" href="css/position.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="left"></div>
+      <div class="right">
+        <p class="box"></p>
+        <p class="box2"></p>
+      </div>
+      <div class="bottom"></div>
+    </div>
+    <!-- 
+      특정 영역 안에서 자식요소를 자유롭게 배치하는 법
+    -- 배치할 요소에 position:absolute 적용한 뒤, 
+    가로, 세로 좌표값을 설정 
+    -- absolute 의 좌표값은 무조건 부모요소 중에서 position 속성이 있는 기준으로 좌표값을 설정
+    -- 특정 요소를 absolute로 설정하는 순간에 해당 요소는 문서에서 강제로 뜯어져 나와서 설정한 좌표값 위치로 얹혀짐
+    -- position: relative 화면상에(좌표값을 주지 않으면) 아무런 변화를 일으키지 않으면서 position 속성만 설정
+    -- position: relative는 보통 자식 absolute요소의 기준점을 설정할때 쓰임
+    -->
+  </body>
+</html>
