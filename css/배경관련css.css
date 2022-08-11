@@ -1,0 +1,14 @@
+@charset 'utf-8';
+div {
+  width: 500px;
+  height: 500px;
+  border: 1px solid blue;
+
+  /* background-color: lightcyan;
+  background-image: url(../img/patern.png);
+  background-repeat: no-repeat;
+  /* background-position: 위치 조정 앞에가 가로축 뒤에가 세로축 */
+  /* background-position: 50px 10px; */
+
+  background: lightcyan url(../img/patern.png) no-repeat 50px 10px;
+}
